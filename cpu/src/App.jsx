@@ -8,6 +8,8 @@ import { runCPUSimulation } from './utils/scheduler';
 import './App.css';
 
 const DEFAULT_PROCESSES = [
+
+  
   { id: 'p1', pid: 'P1', arrival: 0, burst: 6, priority: 2 },
   { id: 'p2', pid: 'P2', arrival: 2, burst: 4, priority: 1 },
   { id: 'p3', pid: 'P3', arrival: 4, burst: 2, priority: 3 },
