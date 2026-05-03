@@ -16,6 +16,8 @@ const DEFAULT_PROCESSES = [
 ];
 
 function App() {
+
+  
   const [processes, setProcesses] = useState(DEFAULT_PROCESSES);
   const [algorithm, setAlgorithm] = useState('fcfs');
   const [quantum, setQuantum] = useState(3);
