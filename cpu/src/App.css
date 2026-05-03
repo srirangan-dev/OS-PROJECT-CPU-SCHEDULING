@@ -5,10 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 /* ── Design Tokens ── */
+
 :root {
    
   --bg-primary: #0a0e1a;
   --bg-secondary: #111827;
+   
   --bg-card: rgba(17, 24, 39, 0.85);
   --bg-card-inner: rgba(6, 10, 23, 0.7);
   --bg-input: #0d1117;
@@ -19,6 +21,7 @@
   --border-card: rgba(71, 85, 105, 0.25);
 
   --text-primary: #f0f4ff;
+   
   --text-secondary: #94a3b8;
   --text-muted: #64748b;
   --text-accent: #93c5fd;
