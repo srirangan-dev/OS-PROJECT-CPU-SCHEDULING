@@ -8,8 +8,6 @@ import { runCPUSimulation } from './utils/scheduler';
 import './App.css';
 
 const DEFAULT_PROCESSES = [
-
-
   { id: 'p1', pid: 'P1', arrival: 0, burst: 6, priority: 2 },
   { id: 'p2', pid: 'P2', arrival: 2, burst: 4, priority: 1 },
   { id: 'p3', pid: 'P3', arrival: 4, burst: 2, priority: 3 },
@@ -18,6 +16,7 @@ const DEFAULT_PROCESSES = [
 function App() {
 
   
+  
   const [processes, setProcesses] = useState(DEFAULT_PROCESSES);
   const [algorithm, setAlgorithm] = useState('fcfs');
   const [quantum, setQuantum] = useState(3);
@@ -25,9 +24,12 @@ function App() {
   const nextIdRef = useRef(4);
   
 
+
+  
   const handleAddProcess = () => {
 
 
+    
     
     const newId = `p${nextIdRef.current}`;
     const newPid = `P${nextIdRef.current}`;
