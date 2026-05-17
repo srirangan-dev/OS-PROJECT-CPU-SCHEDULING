@@ -13,9 +13,13 @@ export const runCPUSimulation = (processes, algorithm, quantum = 3) => {
 
   const addStep = (msg) => steps.push(`[T=${currentTime}] ${msg}`);
 
+
+  
   // Helper: get ready processes (arrived and remaining > 0)
   const getReadyQueue = () => procList.filter(p => p.arrival <= currentTime && p.remaining > 0);
 
+
+  
   if (algorithm === 'fcfs') {
     const sorted = [...procList].sort((a, b) => a.arrival - b.arrival);
     for (const p of sorted) {
