@@ -15,8 +15,6 @@ const DEFAULT_PROCESSES = [
 
 function App() {
 
-  
-  
   const [processes, setProcesses] = useState(DEFAULT_PROCESSES);
   const [algorithm, setAlgorithm] = useState('fcfs');
   const [quantum, setQuantum] = useState(3);
@@ -29,8 +27,6 @@ function App() {
   const handleAddProcess = () => {
 
 
-    
-    
     const newId = `p${nextIdRef.current}`;
     const newPid = `P${nextIdRef.current}`;
     nextIdRef.current += 1;
