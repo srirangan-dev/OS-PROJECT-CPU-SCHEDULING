@@ -7,6 +7,7 @@
 /* ── Design Tokens ── */
 
 :root {
+
    
   --bg-primary: #0a0e1a;
   --bg-secondary: #111827;
@@ -16,6 +17,9 @@
   --bg-input: #0d1117;
   --bg-hover: rgba(59, 130, 246, 0.08);
 
+
+
+   
   --border-subtle: rgba(56, 78, 119, 0.3);
   --border-glow: rgba(59, 130, 246, 0.4);
   --border-card: rgba(71, 85, 105, 0.25);
