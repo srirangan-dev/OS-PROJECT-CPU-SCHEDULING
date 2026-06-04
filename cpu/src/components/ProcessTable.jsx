@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const ProcessTable = ({ processes, onAdd, onRemoveLast, onResetDefault, onProcessChange, onDeleteProcess }) => {
   const handleChange = (id, field, value) => {
     const process = processes.find(p => p.id === id);
@@ -10,6 +11,8 @@ const ProcessTable = ({ processes, onAdd, onRemoveLast, onResetDefault, onProces
     }
   };
 
+
+  
   return (
     <>
       <div className="section-header">📋 Process Table</div>
