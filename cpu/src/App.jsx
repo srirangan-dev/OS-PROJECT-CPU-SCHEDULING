@@ -7,6 +7,9 @@ import StatsPanel from './components/StatsPanel';
 import { runCPUSimulation } from './utils/scheduler';
 import './App.css';
 
+
+
+
 const DEFAULT_PROCESSES = [
   { id: 'p1', pid: 'P1', arrival: 0, burst: 6, priority: 2 },
   { id: 'p2', pid: 'P2', arrival: 2, burst: 4, priority: 1 },
