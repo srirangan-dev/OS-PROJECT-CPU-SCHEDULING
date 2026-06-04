@@ -25,6 +25,8 @@ const GanttChart = ({ gantt }) => {
     );
   }
 
+  
+
   const totalTime = Math.max(...gantt.map(seg => seg.end), 0);
 
   const getColor = (pid) => {
@@ -32,6 +34,8 @@ const GanttChart = ({ gantt }) => {
     return COLORS[(num - 1) % COLORS.length];
   };
 
+
+  
   return (
     <div className="gantt-wrapper" id="gantt-chart">
       <div>Timeline (units)</div>
