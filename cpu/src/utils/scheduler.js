@@ -6,6 +6,9 @@ export const runCPUSimulation = (processes, algorithm, quantum = 3) => {
     originalBurst: p.burst,
   }));
 
+
+
+  
   let currentTime = 0;
   const gantt = [];
   const steps = [];
