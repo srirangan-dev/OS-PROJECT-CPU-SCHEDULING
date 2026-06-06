@@ -1,7 +1,6 @@
 /* ══════════════════════════════════════════════
    CPU Scheduling Visualizer — Premium Dark Theme
    ══════════════════════════════════════════════ */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 /* ── Design Tokens ── */
@@ -19,6 +18,7 @@
 
 
 
+   
    
   --border-subtle: rgba(56, 78, 119, 0.3);
   --border-glow: rgba(59, 130, 246, 0.4);
