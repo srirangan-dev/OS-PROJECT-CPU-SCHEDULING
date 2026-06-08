@@ -13,10 +13,8 @@ const DEFAULT_PROCESSES = [
   { id: 'p3', pid: 'P3', arrival: 4, burst: 2, priority: 3 },
 ];
 
-function App() {
 
-
-  
+function App() { 
   const [processes, setProcesses] = useState(DEFAULT_PROCESSES);
   const [algorithm, setAlgorithm] = useState('fcfs');
   const [quantum, setQuantum] = useState(3);
