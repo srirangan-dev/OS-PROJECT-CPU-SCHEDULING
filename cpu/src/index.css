@@ -24,6 +24,9 @@
   color-scheme: light dark;
   color: var(--text);
 
+
+
+  
   
   background: var(--bg);
   font-synthesis: none;
@@ -35,6 +38,8 @@
     font-size: 16px;
   }
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
