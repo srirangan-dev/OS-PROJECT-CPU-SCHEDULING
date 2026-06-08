@@ -23,9 +23,6 @@ function App() {
   const [simulationResult, setSimulationResult] = useState(null);
   const nextIdRef = useRef(4);
   
-
-
-  
   const handleAddProcess = () => {
 
 
